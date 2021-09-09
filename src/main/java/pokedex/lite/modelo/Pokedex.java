@@ -12,10 +12,11 @@ import java.util.stream.Collectors;
 public class Pokedex {
 
     private List<Pokemon> pokemons;
-    private Reportable database;
+    private List<Reportable> database;
 
     public Pokedex(){
        this.pokemons = new ArrayList<>();
+       this.database = new ArrayList<>();
     }
 
     public String listPokemons(){
@@ -52,6 +53,11 @@ public class Pokedex {
         return pokemon.getAdvancedInformation();
     }
 
+    public String getPokemonEvolutionsInformation(String aName){
+        Pokemon pokemon = this.getPokemonByName(aName);
+        return pokemon.getEvolutionsInformation();
+    }
+
     public void addPokemon(Pokemon aPokemon) throws IOException {
 
         for(Pokemon pokemon : pokemons){
@@ -60,61 +66,83 @@ public class Pokedex {
             }
         }
         this.pokemons.add(aPokemon);
-        this.database.notifyDB();
+        System.out.println("pokemon added, sending notification to DB");
+        this.notifyDB();
     }
 
     public void removePokemon(String name) throws IOException {
 
         pokemons.removeIf(obj -> obj.getName().equals(name));
-        this.database.notifyDB();
+        this.notifyDB();
     }
 
 
     public void addAllPokemon(List<Pokemon> Pokemons) throws IOException {
         this.pokemons.addAll(Pokemons);
-        this.database.notifyDB();
+        this.notifyDB();
     }
 
     public void addDatabase(Reportable database){
-        this.database = database;
+        this.database.add(database);
     }
 
 
-    public void editPokemonName(String oldName, String newName){
+    public void editPokemonName(String oldName, String newName) throws IOException {
 
         for(Pokemon pokemon : pokemons){
             if (pokemon.getName().equals(oldName)){
                 pokemon.editName(newName);
             }
         }
+        this.notifyDB();
     }
 
-    public void editPokemonType(String name, Type type){
+    public void addPokemonAbility(String name, String ability) throws IOException {
+
+        for(Pokemon pokemon : pokemons){
+            if (pokemon.getName().equals(name)){
+                pokemon.addAbility(new Ability(ability));
+            }
+        }
+        this.notifyDB();
+    }
+
+    public void editPokemonType(String name, Type type) throws IOException {
 
         for(Pokemon pokemon : pokemons){
             if (pokemon.getName().equals(name)){
                 pokemon.editType(type);
             }
         }
+        this.notifyDB();
     }
 
-    public void addPokemonEvolution(String name, Pokemon evolution){
+    public void addPokemonEvolution(String name, Pokemon evolution) throws IOException {
         for(Pokemon pokemon : pokemons){
             if (pokemon.getName().equals(name)){
                 pokemon.addEvolution(evolution);
             }
         }
+        this.notifyDB();
     }
 
-    public void updatePokemonLevel(String name, int level){
+    public void editPokemonLevel(String name, int level) throws IOException {
         for(Pokemon pokemon : pokemons){
             if (pokemon.getName().equals(name)){
                 pokemon.editLevel(level);
             }
         }
+        this.notifyDB();
     }
 
     public Object getPokemons() {
         return pokemons;
+    }
+
+    private void notifyDB() throws IOException {
+        if(database.isEmpty()) return;
+        for(Reportable element : database){
+            element.notifyDB();
+        }
     }
 }

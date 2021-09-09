@@ -18,7 +18,7 @@ public class FileInterface implements Reportable{
 
     public void readAndLoadPokedex() throws IOException, ClassNotFoundException {
 
-        InputStream fi = getClass().getResourceAsStream(fileName);
+        FileInputStream fi = new FileInputStream(new File(fileName));
         ObjectInputStream oi = new ObjectInputStream(fi);
 
         List<Pokemon> readedPokemons = (List<Pokemon>) oi.readObject();

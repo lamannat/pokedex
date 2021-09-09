@@ -78,7 +78,7 @@ public class Pokemon implements Serializable {
     }
 
     public void editName(String newName) {
-        this.name = name;
+        this.name = newName;
     }
 
     public void editType(Type type) {
