@@ -6,20 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="f593356d-ee30-4374-ac35-a6a94d246eed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pokemonsDB" beforeDir="false" afterPath="$PROJECT_DIR$/pokemonsDB" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/lite/FileInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/lite/FileInterface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/lite/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/lite/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Pokedex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Pokedex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Pokemon/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Pokemon/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/pokemonsDB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test/pokedex/lite/PokedexTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test/pokedex/lite/PokedexTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pokedex/lite/FileInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pokedex/lite/FileInterface.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pokedex/lite/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pokedex/lite/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pokedex/lite/modelo/Pokedex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pokedex/lite/modelo/Pokedex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pokemonsDB" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/original-pokedex-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/original-pokedex-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pokedex/lite/PokedexTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pokedex/lite/PokedexTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pokedex-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/pokedex-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pokemonsDB" beforeDir="false" afterPath="$PROJECT_DIR$/target/pokemonsDB" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +47,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter/5.8.0-RC1/junit-jupiter-5.8.0-RC1.jar" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.38229573" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
@@ -65,7 +57,7 @@
       <recent name="pokedex.lite" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PokedexTest.pokemonInformationCanBeChanged">
+  <component name="RunManager" selected="JUnit.All in pokedex">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -73,6 +65,14 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in pokedex" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pokedex" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,22 +125,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PokedexTest.pokedexreturnsAdvancedForAGivenName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="pokedex" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pokedex.lite.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="pokedex.lite" />
-      <option name="MAIN_CLASS_NAME" value="pokedex.lite.PokedexTest" />
-      <option name="METHOD_NAME" value="pokedexreturnsAdvancedForAGivenName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PokedexTest.pokemonInformationCanBeChanged" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pokedex" />
       <extension name="coverage">
@@ -159,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in pokedex" />
         <item itemvalue="JUnit.PokedexTest.pokemonInformationCanBeChanged" />
         <item itemvalue="JUnit.PokedexTest.aListOfPokemonsCanBeAddedToPokedex" />
         <item itemvalue="JUnit.PokedexTest.aNewPokemonCanBeAddedToPokedex" />
         <item itemvalue="JUnit.PokedexTest.pokedexReturnsEvolutionsInformationForAGivenName" />
-        <item itemvalue="JUnit.PokedexTest.pokedexreturnsAdvancedForAGivenName" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +161,7 @@
       <updated>1631057847143</updated>
       <workItem from="1631057848605" duration="4683000" />
       <workItem from="1631141462501" duration="17164000" />
-      <workItem from="1631192455846" duration="19523000" />
+      <workItem from="1631192455846" duration="21027000" />
     </task>
     <servers />
   </component>
