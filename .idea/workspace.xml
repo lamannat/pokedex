@@ -6,17 +6,28 @@
   <component name="ChangeListManager">
     <list default="true" id="f593356d-ee30-4374-ac35-a6a94d246eed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pikachu" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pokemones" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/employees.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/lite/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/lite/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Ability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Ability.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Pokedex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Pokedex.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Pokemon/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Pokemon/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Type/Fire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Type/Fire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Type/Normal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Type/Normal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Type/Rock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Type/Rock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Type/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Type/Type.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Type/Water.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Type/Water.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/pokemonsDB.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test/pokedex/lite/PokemonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test/pokedex/lite/PokemonTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/pokedex/lite/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pokedex/lite/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pokedex/lite/modelo/Pokedex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pokedex/lite/modelo/Pokedex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pokedex/lite/modelo/Pokemon/Pokemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pokedex/lite/modelo/Pokemon/Pokemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pokemonsDB.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/pokedex-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-pokedex.lite.PokemonTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-pokedex.lite.TrivialTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/pokedex.lite.PokemonTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/pokedex.lite.TrivialTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pokedex/lite/PokemonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pokedex/lite/PokemonTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +68,11 @@
     <property name="project.structure.side.proportion" value="0.38229573" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pokedex.lite" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pokedex.lite.Main" />
@@ -71,15 +87,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -166,7 +180,8 @@
       <option name="presentableId" value="Default" />
       <updated>1631057847143</updated>
       <workItem from="1631057848605" duration="4683000" />
-      <workItem from="1631141462501" duration="16703000" />
+      <workItem from="1631141462501" duration="17164000" />
+      <workItem from="1631192455846" duration="10325000" />
     </task>
     <servers />
   </component>

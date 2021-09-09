@@ -1,1 +1,16 @@
-pokedex\lite\modelo\JSONManager.class
+pokedex\lite\modelo\Type\Fire.class
+pokedex\lite\modelo\Pokemon\Pokemon.class
+pokedex\lite\modelo\Pokemon\Evolution.class
+pokedex\lite\modelo\Type\Normal.class
+pokedex\lite\modelo\Type\Type.class
+pokedex\lite\Main.class
+pokedex\lite\modelo\Ability.class
+pokedex\lite\modelo\Pokedex.class
+pokedex\lite\modelo\Type\Electric.class
+pokedex\lite\modelo\Type\Metal.class
+pokedex\lite\modelo\Type\Psychic.class
+pokedex\lite\modelo\Type\Grass.class
+pokedex\lite\FileInterface.class
+pokedex\lite\modelo\Type\Rock.class
+pokedex\lite\Reportable.class
+pokedex\lite\modelo\Type\Water.class

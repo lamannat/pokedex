@@ -10,31 +10,25 @@ import java.util.stream.Collectors;
 
 public class Pokemon implements Serializable {
 
-    private String name;
-    private Integer minimumLevel;
-    private Integer level;
-    private Type type;
-    private List<Pokemon> evolutions;
-    private List<Ability> abilities;
+    protected String name;
+    protected Integer level;
+    protected Type type;
+    protected List<Pokemon> evolutions;
+    protected List<Ability> abilities;
 
     public Pokemon(){}
 
-    public Pokemon(String name, Type type, Integer level, Integer minimumLevel){
+    public Pokemon(String name, Type type, Integer level){
         evolutions = new ArrayList<>();
         abilities = new ArrayList<>();
         this.name = name;
         this.level = level;
         this.type = type;
-        this.minimumLevel = minimumLevel;
     }
 
 
     public String getBasicInformation() {
         return name+", "+type.toString()+", "+level.toString();
-    }
-
-    public String getInformationAsEvolution() {
-        return name+", "+type.toString()+", "+minimumLevel.toString();
     }
 
     public boolean hasName(String aName) {
@@ -78,8 +72,20 @@ public class Pokemon implements Serializable {
 
     public String getEvolutionsInformation() {
 
-        String evolutionsString = evolutions.stream().map(Pokemon::getInformationAsEvolution)
+        String evolutionsString = evolutions.stream().map(Pokemon::getBasicInformation)
                 .collect(Collectors.joining("\n"));
         return evolutionsString;
+    }
+
+    public void editName(String newName) {
+        this.name = name;
+    }
+
+    public void editType(Type type) {
+        this.type = type;
+    }
+
+    public void editLevel(int level) {
+        this.level = level;
     }
 }
