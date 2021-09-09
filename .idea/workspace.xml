@@ -6,6 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="f593356d-ee30-4374-ac35-a6a94d246eed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/lite/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/lite/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Ability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Ability.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Pokedex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Pokedex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Pokemon/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Pokemon/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Type/Fire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Type/Fire.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Type/Normal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Type/Normal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Type/Rock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Type/Rock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Type/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Type/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Type/Water.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pokedex/lite/modelo/Type/Water.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pokedex/lite/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pokedex/lite/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,11 +42,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter/5.8.0-RC1/junit-jupiter-5.8.0-RC1.jar" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.38229573" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.ignored.files" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -51,18 +71,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrivialTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PokemonTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pokedex" />
       <extension name="coverage">
         <pattern>
@@ -71,8 +93,56 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="pokedex.lite" />
-      <option name="MAIN_CLASS_NAME" value="pokedex.lite.TrivialTest" />
+      <option name="MAIN_CLASS_NAME" value="pokedex.lite.PokemonTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PokemonTest.pokemonDevuelveString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pokedex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pokedex.lite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pokedex.lite" />
+      <option name="MAIN_CLASS_NAME" value="pokedex.lite.PokemonTest" />
+      <option name="METHOD_NAME" value="pokemonDevuelveString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PokemonTest.pokemonReturnsCorrectAdvancedInformation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pokedex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pokedex.lite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pokedex.lite" />
+      <option name="MAIN_CLASS_NAME" value="pokedex.lite.PokemonTest" />
+      <option name="METHOD_NAME" value="pokemonReturnsCorrectAdvancedInformation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PokemonTest.pokemonReturnsCorrectEvolutionsInformation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="pokedex" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pokedex.lite.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pokedex.lite" />
+      <option name="MAIN_CLASS_NAME" value="pokedex.lite.PokemonTest" />
+      <option name="METHOD_NAME" value="pokemonReturnsCorrectEvolutionsInformation" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,7 +150,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.TrivialTest" />
+        <item itemvalue="JUnit.PokemonTest" />
+        <item itemvalue="JUnit.PokemonTest.pokemonReturnsCorrectAdvancedInformation" />
+        <item itemvalue="JUnit.PokemonTest.pokemonReturnsCorrectEvolutionsInformation" />
+        <item itemvalue="JUnit.PokemonTest.pokemonDevuelveString" />
       </list>
     </recent_temporary>
   </component>
@@ -92,7 +165,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631057847143</updated>
-      <workItem from="1631057848605" duration="3588000" />
+      <workItem from="1631057848605" duration="4683000" />
+      <workItem from="1631141462501" duration="16703000" />
     </task>
     <servers />
   </component>
@@ -109,5 +183,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

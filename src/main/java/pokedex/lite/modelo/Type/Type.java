@@ -1,4 +1,10 @@
 package pokedex.lite.modelo.Type;
 
-public abstract class Type {
+import java.io.Serializable;
+
+public abstract class Type implements Serializable {
+    @Override
+    public abstract String toString();
+
+
 }

@@ -1,8 +1,8 @@
 package pokedex.lite.modelo.Type;
 
-public class Rock extends Type{
+public class Electric extends Type{
 
-    private final String name = "Rock";
+    private final String name = "Electric";
 
     @Override
     public String toString() {
