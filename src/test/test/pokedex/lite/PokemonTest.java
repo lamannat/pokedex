@@ -35,5 +35,4 @@ public class PokemonTest {
         pikachu.addEvolution(new Evolution("Raichu", new Electric(), 15));
         assertEquals("Pikachu, Electric, 10\nRaichu, Electric, 15", pikachu.getEvolutionsInformation());
     }
-
 }
